@@ -1,0 +1,14 @@
+Introduction:
+- learning by demonstration
+- fish what type, behavioural aspects
+- landmarks and chambers
+- data
+
+Collecting data from live fish:
+- python and opencv
+- manually tracking for accuracy 
+- data collected as a csv file so that we can pass this through ML and get it output as functional code for the mobile robot, Tango
+- trajectories as well as linear and angular velocities can be calculated from this data collection
+
+(Images of trajectories from trial 1 vs trial 10)
+
