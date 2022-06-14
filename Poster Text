@@ -5,10 +5,13 @@ Introduction:
 - data
 
 Collecting data from live fish:
-- python and opencv
-- manually tracking for accuracy 
-- data collected as a csv file so that we can pass this through ML and get it output as functional code for the mobile robot, Tango
-- trajectories as well as linear and angular velocities can be calculated from this data collection
+- For this project we manually collected data from live Three-spined sticklebacks in trials they underwent.
+- In these trials the fish needed to associate lanmarks with the chamber that had food from the two chambers avaliable to choose from.
+- To track the fish we used Python with opencv and collected 1500 frames of each trial selecting the mid point of the fish's nose and eyes. 
+- The reason we manually tracked the fish compared to using a tracking program is to get the most accurate and concise results from the trials.
+- The data collected is stored as a comma seperated value (csv) file, so that we can pass this through a machine learning (ML) algorithm to be used for our mobile robot, Tango.
+- Using the data collected we can calculate the trajectories, as well as, the linear and angular velocities of the fish. 
+- This tells us its direction and speed, and if it recognises the landmark as a significant indication of association to food in the chamber it is closest to.
 
-(Images of trajectories from trial 1 vs trial 10)
+(Images of trajectories from trial 1,2,10)
 
