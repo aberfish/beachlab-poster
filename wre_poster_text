@@ -16,11 +16,9 @@ Tango robot hardware:
 
 Machine learning:
 - Multi layer perceptron regressor network
-- Works with numbers - numbers in numbers out
-- Attempts to predict output numbers when only given input numbers
-- "learns" when given a large amount of paired input and output numbers
+- Tries to predict output for given input (numbers)
+- "Learns" from large amount of paired data
 - 20% of data is reserved for testing after training
-- This means we'll have input values, predicted outputs and known correct ouputs to compare!
-- Any number of inputs can be designated, and you can even have multiple outputs!
-- For example, input data can be sensor data from the fish robot and output data can be both linear and angular velocities - no need for multiple models (in theory)
-- Using this we can get the robot to "learn" directly from the real fish itself!
+- Any number inputs or outputs
+- Fish / sensor data = input, movement commands = output
+- Robot can learn from a fish!
