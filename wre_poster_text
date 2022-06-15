@@ -24,4 +24,15 @@ Lidar control
 Rosbag recording
 PID controller
 
-More things to be added later
+Machine learning:
+Multi layer perceptron regressor network
+Works with numbers - numbers in numbers out
+Attempts to predict output numbers when only given input numbers
+"learns" when given a large amount of paired input and output numbers
+Common practice is to determine accuracy is to reserve 20% of the training data to test the generated network on
+This means we'll have input values, predicted outputs and known correct ouputs to compare!
+*graph(s)*
+This approach is flexible!
+Any number of inputs can be designated, and you can even have multiple outputs!
+For example, input data can be sensor data from the fish robot and output data can be both linear and angular velocities - no need for multiple models (in theory)
+Using this we can get the robot to "learn" directly from the real fish itself, in essence
