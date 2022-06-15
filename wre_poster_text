@@ -1,38 +1,26 @@
 wre poster text:
 
-Tango robot details:
-
-Hardware:
-Raspberry pi 3, Bluetooth + wifi
-arduino mega
-RP lidar A2 (red)
-sabretooth dual motor controller (software serial)
-7 sharp IR sensors
-front bumper micro switches
-4 fall sensors (2 front, 2 back) (IR)
-6 ultrasonics (non functional)
-12 volt motors – with hall sensors
-9 degree freedom IMU
-voltage reader (motor battery)
-extra Bluetooth module for arduino
-
-Other:
-Wireless access
-Remote control
-Safety nodes
-Lidar control
-Rosbag recording
-PID controller
+Tango robot hardware:
+- Raspberry pi 3
+- Arduino mega
+- RP lidar A2 (red)
+- Sabretooth dual motor controller
+- 7 Sharp IR sensors
+- Front bumper micro switches
+- 4 Infrared fall sensors (2 front, 2 back) (IR)
+- 6 Ultrasonic sensors (non functional)
+- 2 12 volt motors – with hall sensors
+- 9 Degrees of freedom IMU
+- Voltage reader (motor battery)
+- Extra Bluetooth module for arduino
 
 Machine learning:
-Multi layer perceptron regressor network
-Works with numbers - numbers in numbers out
-Attempts to predict output numbers when only given input numbers
-"learns" when given a large amount of paired input and output numbers
-Common practice is to determine accuracy is to reserve 20% of the training data to test the generated network on
-This means we'll have input values, predicted outputs and known correct ouputs to compare!
-*graph(s)*
-This approach is flexible!
-Any number of inputs can be designated, and you can even have multiple outputs!
-For example, input data can be sensor data from the fish robot and output data can be both linear and angular velocities - no need for multiple models (in theory)
-Using this we can get the robot to "learn" directly from the real fish itself, in essence
+- Multi layer perceptron regressor network
+- Works with numbers - numbers in numbers out
+- Attempts to predict output numbers when only given input numbers
+- "learns" when given a large amount of paired input and output numbers
+- 20% of data is reserved for testing after training
+- This means we'll have input values, predicted outputs and known correct ouputs to compare!
+- Any number of inputs can be designated, and you can even have multiple outputs!
+- For example, input data can be sensor data from the fish robot and output data can be both linear and angular velocities - no need for multiple models (in theory)
+- Using this we can get the robot to "learn" directly from the real fish itself!
