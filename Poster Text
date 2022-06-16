@@ -1,10 +1,24 @@
 Introduction:
-- learning by demonstration
-- fish what type, behavioural aspects
-- landmarks and chambers
-- data
+- In this project we aimed to build a mobile robot using learning by demonstration
+- Three-spinned sticklebacks are heavily used in research
+- Associative behaviour of three-spinned sticklebacks using landmarks and chambers
+
 
 Collecting data from live fish:
+- Manually collected data from three-spinned sticklebacks in trials
+- Using python and opencv 
+- In each trial 1500 frames were analysed
+- The nose and inbetween the eyes were selected, to give us orientation
+- Using this data we can calculate trajectory, linear and angular velocity
+- This data is then fed through a machine learning algorithm
+- The data is then used in the mobile robot to model the behaviour of the fish
+
+
+
+
+
+
+
 - For this project we manually collected data from live Three-spined sticklebacks in trials they underwent.
 - In these trials the fish needed to associate lanmarks with the chamber that had food from the two chambers avaliable to choose from.
 - To track the fish we used Python with opencv and collected 1500 frames of each trial selecting the mid point of the fish's nose and eyes. 
